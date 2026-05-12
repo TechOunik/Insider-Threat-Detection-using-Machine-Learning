@@ -1,0 +1,20 @@
+# --- Project Specific Data (DO NOT REMOVE) ---
+data/
+*.csv
+*.tar.bz2
+*.bz2
+*.iso
+*.qcow2
+*.vmdk
+*.ova
+
+# --- Python Environment ---
+__pycache__/
+.venv/
+env/
+venv/
+*.py[cod]
+
+# --- System/OS Files ---
+.DS_Store
+.ipynb_checkpoints/
