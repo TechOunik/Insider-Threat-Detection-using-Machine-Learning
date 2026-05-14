@@ -15,4 +15,5 @@ This research focuses on identifying insider threats by **analysing behavioural*
 - **Modelling:** Implementation of **Isolation Forest** to identify outliers and anomalies.
 
 ## Project Log
-- **[12th May, 2026]:** Successfully **initialised** repository and **established** local ingestion pipeline for the **14GB HTTP log** files.
+- **[12th May, 2026]:** I Successfully **initialised** repository and **established** local ingestion pipeline for the **14GB HTTP log** files.
+- **[13th May 2026]:** I established a lightweight data ingestion pipeline using **Python** and **Pandas**. Opted for a chunked-processing approach to handle the 16GB dataset efficiently on local hardware, ensuring a minimal storage footprint and avoiding the overhead of heavy SIEM indexing.
