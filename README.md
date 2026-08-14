@@ -48,19 +48,19 @@ source .venv/bin/activate
 pip install -r requirements.txt
 2. Run Pipeline
 Bash
-# Step 1: Verify baseline population and ground truth
+### Step 1: Verify baseline population and ground truth
 python3 src/01_data_recon.py
 
-# Step 2: Extract 6-hour temporal block features (707,926 instances)
+### Step 2: Extract 6-hour temporal block features (707,926 instances)
 python3 src/02_feature_engineering.py
 
-# Step 3: Train Isolation Forest model
+### Step 3: Train Isolation Forest model
 python3 src/03_train_detector.py
 
-# Step 4: Evaluate performance metrics across contamination levels
+### Step 4: Evaluate performance metrics across contamination levels
 python3 src/04_evaluate_performance.py
 
-# Step 5: Render high-resolution figures
+### Step 5: Render high-resolution figures
 python3 src/05_generate_diagrams.py
 
 ---
