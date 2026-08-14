@@ -6,7 +6,7 @@ Tested on the **Carnegie Mellon University (CMU) CERT Synthetic Insider Threat D
 
 ---
 
-## 📌 Performance Overview
+##  Performance Overview
 
 By resolving **temporal dilution** (partitioning activity into 6-hour shifts rather than daily/monthly averages), the model achieves high detection coverage on acute attack bursts:
 
@@ -16,7 +16,7 @@ By resolving **temporal dilution** (partitioning activity into 6-hour shifts rat
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 ├── data/
@@ -36,7 +36,11 @@ By resolving **temporal dilution** (partitioning activity into 6-hour shifts rat
 ├── DEFENSE_NOTES.md                  # Project defense guide & oral examination notes
 ├── README.md                         # Project documentation
 └── requirements.txt                  # Python dependencies
-🚀 Quickstart & Execution
+
+```
+---
+
+## Quickstart & Execution
 1. Environment Setup
 Bash
 python3 -m venv .venv
@@ -58,15 +62,18 @@ python3 src/04_evaluate_performance.py
 
 # Step 5: Render high-resolution figures
 python3 src/05_generate_diagrams.py
-🛠️ Requirements
-Python 3.10+
 
-pandas
+---
 
-scikit-learn
+## Requirements
+* Python 3.10+
 
-matplotlib
+* pandas
 
-seaborn
+* scikit-learn
 
-numpy
+* matplotlib
+
+* seaborn
+
+* numpy
