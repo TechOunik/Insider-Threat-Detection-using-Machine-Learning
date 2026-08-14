@@ -1,20 +1,16 @@
-# --- Project Specific Data (DO NOT REMOVE) ---
-data/
-*.csv
-*.tar.bz2
-*.bz2
-*.iso
-*.qcow2
-*.vmdk
-*.ova
-
-# --- Python Environment ---
-__pycache__/
+# Python virtual environment & cache
 .venv/
-env/
 venv/
-*.py[cod]
+__pycache__/
+*.pyc
 
-# --- System/OS Files ---
-.DS_Store
-.ipynb_checkpoints/
+# Exclude large raw and generated CSVs (exceed GitHub size limits)
+data/raw/
+detection_output/*.csv
+
+# Keep the evaluation summary table specifically
+!detection_output/evaluation_summary.csv
+
+# IDE settings
+.vscode/
+.idea/
